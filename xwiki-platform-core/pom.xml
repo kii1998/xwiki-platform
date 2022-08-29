@@ -125,23 +125,7 @@
 
                  Single justification example:
             -->
-            <revapi.differences>
-              <criticality>highlight</criticality>
-              <differences>
-                <item>
-                  <code>java.class.removed</code>
-                  <old>class com.xpn.xwiki.pdf.impl.PDFURIResolver</old>
-                  <justification>Requires a too big refactoring after Formula macro extraction to justify keeping it.
-                    See https://forum.xwiki.org/t/remove-legacy-pdfuriresolver-class/10808/</justification>
-                </item>
-                <item>
-                  <code>java.class.removed</code>
-                  <old>class com.xpn.xwiki.web.TexAction</old>
-                  <justification>Requires a too big refactoring after Formula macro extraction to justify keeping it.
-                    See https://forum.xwiki.org/t/remove-texaction-component/10888</justification>
-                </item>
-              </differences>
-            </revapi.differences>
+            
           </analysisConfiguration>
         </configuration>
       </plugin>
